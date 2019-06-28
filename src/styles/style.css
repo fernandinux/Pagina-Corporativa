@@ -1,0 +1,58 @@
+/* Barra de navegación */
+.nav {
+  background-color: #783393;
+  color: #ffffff !important;
+}
+.nav__button {
+  background-color: #f27c21;
+  color: #ffffff;
+}
+.nav__button:hover {
+  background-color: #f88b0e;
+}
+/* /Barra de navegación */
+
+/* Sección con imagen de fondo */
+.section-background {
+  background-image: url(../images/estudiantes1.jpg);
+  background-size: cover;
+  background-position: 25% center;
+  color: #ffffff;
+  filter: grayscale(50%);
+  height: 100vh;
+  position: relative;
+  -webkit-filter: grayscale(50%);
+}
+.section__overlay {
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.8);
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+.section__overlay .container,
+.section__overlay .container .row {
+  height: 100%;
+}
+/* /Sección con imagen de fondo */
+
+
+
+
+
+
+
+
+
+
+
+/* Responsive movil de section image */
+@media (max-width: 480px) {
+  .section-background {
+    height: 100px;
+    padding-top: 350px;
+    background-position: 70% center;
+  }
+}
+/* /Responsive movil de section image */
