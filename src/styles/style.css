@@ -37,7 +37,13 @@
 }
 /* /Sección con imagen de fondo */
 
-
+/* Contenedor principal */
+.container-main {
+  color: #000000;
+  height: 80vh;
+  width: auto;
+}
+/* /Contenedor principal */
 
 
 
