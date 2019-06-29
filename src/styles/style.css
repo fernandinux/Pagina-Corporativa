@@ -42,10 +42,17 @@
   height: 100%;
 }
 /* Responsive movil de section image */
+@media (max-width: 425px) {
+  .section-background {
+    height: 20vh;
+    padding-top: 350px;
+    background-position: 70% center;
+  }
+}
 @media (max-width: 768px) {
   .section-background {
-    height: 40vh;
-    padding-top: 350px;
+    height: 50vh;
+    padding-top: 390px;
     background-position: 70% center;
   }
 }
