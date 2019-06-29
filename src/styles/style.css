@@ -24,10 +24,10 @@
   background-size: cover;
   background-position: 25% center;
   color: #ffffff;
-  filter: grayscale(50%);
+  filter: grayscale(45%);
   height: 100vh;
   position: relative;
-  -webkit-filter: grayscale(50%);
+  -webkit-filter: grayscale(4%);
 }
 .section__overlay {
   bottom: 0;
@@ -44,7 +44,7 @@
 /* Responsive movil de section image */
 @media (max-width: 480px) {
   .section-background {
-    height: 100px;
+    height: 30vh;
     padding-top: 350px;
     background-position: 70% center;
   }
