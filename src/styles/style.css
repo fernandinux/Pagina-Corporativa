@@ -44,9 +44,11 @@
 /* Responsive movil de section image */
 @media (max-width: 425px) {
   .section-background {
-    height: 20vh;
-    padding-top: 350px;
-    background-position: 70% center;
+    background-position: 20% center;
+    height: 30vh !important;
+  }
+  .section__title {
+    font-size: 1.8rem !important;
   }
 }
 @media (max-width: 768px) {
@@ -55,12 +57,16 @@
     padding-top: 390px;
     background-position: 70% center;
   }
+  .section__title {
+    font-size: 1.9rem;
+    margin-bottom: 1rem !important; 
+  }
 }
 /* /Responsive movil de section image */
 /* /Sección con imagen de fondo */
 
 /* Contenedor principal */
-.container-main {
+.cont-main {
   color: #000000;
   height: 80vh;
   width: auto;
