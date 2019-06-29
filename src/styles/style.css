@@ -42,9 +42,9 @@
   height: 100%;
 }
 /* Responsive movil de section image */
-@media (max-width: 480px) {
+@media (max-width: 768px) {
   .section-background {
-    height: 30vh;
+    height: 40vh;
     padding-top: 350px;
     background-position: 70% center;
   }
