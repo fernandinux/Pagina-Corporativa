@@ -10,6 +10,11 @@
 .nav__button:hover {
   background-color: #f88b0e;
 }
+@media (max-width: 480px) {
+  .nav__logo__ah {
+    width: 40px;
+  }
+}
 /* /Barra de navegación */
 
 /* Sección con imagen de fondo */
@@ -35,6 +40,15 @@
 .section__overlay .container .row {
   height: 100%;
 }
+/* Responsive movil de section image */
+@media (max-width: 480px) {
+  .section-background {
+    height: 100px;
+    padding-top: 350px;
+    background-position: 70% center;
+  }
+}
+/* /Responsive movil de section image */
 /* /Sección con imagen de fondo */
 
 /* Contenedor principal */
@@ -53,12 +67,3 @@
 
 
 
-/* Responsive movil de section image */
-@media (max-width: 480px) {
-  .section-background {
-    height: 100px;
-    padding-top: 350px;
-    background-position: 70% center;
-  }
-}
-/* /Responsive movil de section image */
