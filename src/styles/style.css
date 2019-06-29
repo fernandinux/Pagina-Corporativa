@@ -41,11 +41,11 @@
 .section__overlay .container .row {
   height: 100%;
 }
-/* Responsive movil de section image */
+/* Responsive de section image */
 @media (max-width: 425px) {
   .section-background {
     background-position: 20% center;
-    height: 30vh !important;
+    height: 10vh !important;
   }
   .section__title {
     font-size: 1.8rem !important;
@@ -62,7 +62,7 @@
     margin-bottom: 1rem !important; 
   }
 }
-/* /Responsive movil de section image */
+/* /Responsive de section image */
 /* /Sección con imagen de fondo */
 
 /* Contenedor principal */
@@ -70,6 +70,15 @@
   color: #000000;
   height: 80vh;
   width: auto;
+}
+/* Responsive de texto */
+@media (max-width: 425px) {
+  .cont__subtitle {
+    font-size: 1.5rem;
+  } 
+  .cont__txt {  
+    font-size: 1rem;
+  }
 }
 /* /Contenedor principal */
 
