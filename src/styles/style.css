@@ -12,8 +12,8 @@
 }
 @media (max-width: 480px) {
   .nav__logo__ah {
-    height: 45px;
-    width: 45px;
+    height: 50px;
+    width: auto;
   }
 }
 /* /Barra de navegación */
