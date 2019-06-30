@@ -17,11 +17,11 @@
   <script defer src="https://use.fontawesome.com/releases/v5.9.0/js/all.js"></script>
 </head>
 
-<body>
+<body data-spy="scroll" data-target="#navbar-scrollspy">
+
   <!-- Cabecera -->
-  <!-- editar href -->
   <header class="container-fluid" role="navigation">
-    <nav class="navbar fixed-top navbar-dark nav">
+    <nav id="navbar-scrollspy" class="navbar fixed-top navbar-dark nav">
       <a class="navbar-brand ml-1 ml-md-4" href="index.html">
         <img class="nav__logo__ah mb-0 mb-md-1" src="images/logoweb.png" width="70" height="70"
           class="d-inline-block align-top" alt="Logo de Aprende Hoy" title="Home">
@@ -30,10 +30,10 @@
 
       <!-- editar clas scroll y href -->
       <div class="ml-auto">
-        <a href="#" class="on-page-scroll">
+        <a href="#footer" class="cont__scroll">
           <div class="btn btn-sm nav__button ml-2 mr-1 mr-md-2">POSTULA</div>
         </a>
-        <a href="#" class="on-page-scroll">
+        <a href="#" class="cont__scroll">
           <div class="btn btn-sm nav__button ml-1 ml-md-2 mr-1 mr-md-4">EMPRESAS</div>
         </a>
       </div>
@@ -83,7 +83,7 @@
   <!-- Sección beneficios -->
   <section class="section-benefits">
     <div class="section__ben__overlay">
-      <div class="container">
+      <div class="container-fluid">
         <div class="row align-items-center">
           <div class="col text-center">
             <h2 class="display-4 mt-4 mt-md-5 pt-5 mb-1 mb-md-5 section__title">Beneficios</h2>

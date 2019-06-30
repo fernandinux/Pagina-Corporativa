@@ -1,3 +1,7 @@
+/* body {
+  position: relative;
+}  */
+
 /* Barra de navegación */
 .nav {
   background-color: #783393;
@@ -42,6 +46,11 @@
 .section__overlay .container .row {
   height: 100%;
 }
+/* Estilos de parallax */
+.parallax {
+  background-attachment: fixed!important;
+ }
+ /* /Estilos de parallax */
 /* Responsive de section image */
 @media (max-width: 425px) {
   .section-background {
@@ -67,11 +76,6 @@
   }
 }
 /* /Responsive de section image */
-/* Estilos de parallax */
-.parallax {
-  background-attachment: fixed!important;
- }
- /* /Estilos de parallax */
 /* /Sección con imagen de fondo */
 
 
@@ -116,6 +120,32 @@
 .section__ben__overlay .container .row {
   height: 100%;
 }
+/* Responsive de section beneficios */
+@media (max-width: 425px) {
+  .section-benefits {
+    background-position: 100% center;
+    height: 10vh !important;
+  }
+  .section__title {
+    font-size: 1.3rem !important;
+  }
+  .section__txt {
+    font-size: 1rem !important;
+  }
+}
+@media (max-width: 768px) {
+  .section-benefits {
+    height: 20vh;
+    padding-top: 390px;
+    background-position: 50% center;
+  }
+  .section__title {
+    font-size: 1.9rem;
+    margin-bottom: 1rem !important; 
+  }
+}
+/* /Responsive de section image */
+/* /Sección con imagen de fondo */
 /* /Sección beneficios */
 
 
