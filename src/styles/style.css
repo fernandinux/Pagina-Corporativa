@@ -144,61 +144,31 @@
     margin-bottom: 1rem !important; 
   }
 }
-/* /Responsive de section image */
-/* /Sección con imagen de fondo */
+/* /Responsive de section beneficios */
 /* /Sección beneficios */
 
 
 /* Footer */
 .footer {
   background: #783393;
-  margin-top: 120px;
-  position: relative;
- }
- .footer .container {
-  padding: 20px 0 10px;
+  color: #ffffff;
  }
  .footer ul {
-  margin: 0 auto;
-  margin-bottom: 10px;
-  margin-top: 10px;
-  text-align: center;
   list-style-type: none;
-  padding-left: 0;
  }
  .footer ul li {
-  text-align: center;
   display: inline-block;
   background: #00000033;
-  color: #fff;
   line-height: 45px;
-  margin: 0 4px;
   width: 45px !important;
   height: 45px !important;
-  -webkit-border-radius: 3px;
-  border-radius: 3px;
  }
  .footer ul li:hover {
   background: #2a2a2ad8;
  }
- .footer ul li:hover a {
-  color: #ffffff;
- }
- .footer ul li a {
-  color: #ffffff;
-  width: 42px!important;
-  height: 42px!important;
- }
- .footer ul li a i {
-  line-height: 45px;
-  color: #ffffff;
- }
  .footer p {
-  color: #ffffff;
   font-size: 1em;
-  line-height: 24px;
   font-weight: 300;
-  text-align: center;
  }
  .footer a,
  .footer a:hover {
