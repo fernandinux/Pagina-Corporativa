@@ -67,6 +67,11 @@
   }
 }
 /* /Responsive de section image */
+/* Estilos de parallax */
+.parallax {
+  background-attachment: fixed!important;
+ }
+ /* /Estilos de parallax */
 /* /Sección con imagen de fondo */
 
 
