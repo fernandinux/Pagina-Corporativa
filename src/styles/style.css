@@ -5,7 +5,9 @@
 /* Barra de navegación */
 .nav {
   background-color: #783393;
-  color: #ffffff !important;
+}
+.nav h1 {
+  font-size: 2rem;
 }
 .nav__button {
   background-color: #f27c21;
@@ -107,6 +109,9 @@
   height: 55vh;
   position: relative;
   -webkit-filter: contrast(150%);
+}
+.section-benefits ul {
+  list-style-type: circle;
 }
 .section__ben__overlay {
   bottom: 0;
