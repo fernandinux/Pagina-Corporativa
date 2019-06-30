@@ -18,6 +18,7 @@
 }
 /* /Barra de navegación */
 
+
 /* Sección con imagen de fondo */
 .section-background {
   background-image: url(../images/estudiantes1.jpg);
@@ -27,11 +28,11 @@
   filter: grayscale(45%);
   height: 100vh;
   position: relative;
-  -webkit-filter: grayscale(4%);
+  -webkit-filter: grayscale(45%);
 }
 .section__overlay {
   bottom: 0;
-  background-color: rgba(0, 0, 0, 0.8);
+  background-color: #2a2a2ad8;
   left: 0;
   position: absolute;
   right: 0;
@@ -68,7 +69,8 @@
 /* /Responsive de section image */
 /* /Sección con imagen de fondo */
 
-/* Contenedor principal */
+
+/* Contenedor principal (main) */
 .cont-main {
   color: #000000;
   height: 70vh;
@@ -83,12 +85,91 @@
     font-size: 1rem;
   }
 }
-/* /Contenedor principal */
+/* /Contenedor principal (main)*/
+  
+
+/* Sección beneficios */
+.section-benefits {
+  background-image: url(../images/postit.png);
+  background-size: cover;
+  background-position: 10% center;
+  color: #ffffff;
+  filter: contrast(150%);
+  height: 55vh;
+  position: relative;
+  -webkit-filter: contrast(150%);
+}
+.section__ben__overlay {
+  bottom: 0;
+  background-color: #7833938f;
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+.section__ben__overlay .container,
+.section__ben__overlay .container .row {
+  height: 100%;
+}
+/* /Sección beneficios */
 
 
-
-
-
+/* Footer */
+.footer {
+  background: #783393;
+  margin-top: 120px;
+  position: relative;
+ }
+ .footer .container {
+  padding: 60px 0 20px;
+ }
+ .footer ul {
+  margin: 0 auto;
+  margin-bottom: 30px;
+  margin-top: 10px;
+  text-align: center;
+  list-style-type: none;
+  padding-left: 0;
+ }
+ .footer ul li {
+  text-align: center;
+  display: inline-block;
+  background: #00000033;
+  color: #fff;
+  line-height: 45px;
+  margin: 0 4px;
+  width: 45px !important;
+  height: 45px !important;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+ }
+ .footer ul li:hover {
+  background: #2a2a2ad8;
+ }
+ .footer ul li:hover a {
+  color: #ffffff;
+ }
+ .footer ul li a {
+  color: #ffffff;
+  width: 42px!important;
+  height: 42px!important;
+ }
+ .footer ul li a i {
+  line-height: 45px;
+  color: #ffffff;
+ }
+ .footer p {
+  color: #ffffff;
+  font-size: 1em;
+  line-height: 24px;
+  font-weight: 300;
+  text-align: center;
+ }
+ .footer a,
+ .footer a:hover {
+  color: #ffffff;
+ }
+/* /Footer */
 
 
 
