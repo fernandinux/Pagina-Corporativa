@@ -53,9 +53,6 @@
 }
 /* Responsive de section image */
 @media (max-width: 425px) {
-  .parallax {
-    background-attachment: scroll;
-  }
   .section-background {
     background-position: 20% center;
     height: 10vh !important;
@@ -85,7 +82,7 @@
 /* Contenedor principal (main) */
 .cont-main {
   color: #000000;
-  height: 70vh;
+  height: auto;
   width: auto;
 }
 /* Responsive de texto */
