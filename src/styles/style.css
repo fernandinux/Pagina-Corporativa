@@ -23,6 +23,11 @@
 /* /Barra de navegación */
 
 
+/* Estilos de parallax */
+.parallax {
+  background-attachment: fixed!important;
+ }
+ /* /Estilos de parallax */
 /* Sección con imagen de fondo */
 .section-background {
   background-image: url(../images/estudiantes1.jpg);
@@ -46,13 +51,11 @@
 .section__overlay .container .row {
   height: 100%;
 }
-/* Estilos de parallax */
-.parallax {
-  background-attachment: fixed!important;
- }
- /* /Estilos de parallax */
 /* Responsive de section image */
 @media (max-width: 425px) {
+  .parallax {
+    background-attachment: scroll;
+  }
   .section-background {
     background-position: 20% center;
     height: 10vh !important;
