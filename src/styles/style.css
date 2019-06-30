@@ -110,7 +110,7 @@
   background-position: 10% center;
   color: #ffffff;
   filter: contrast(150%);
-  height: auto;
+  height: 60vh;
   position: relative;
   -webkit-filter: contrast(150%);
 }
