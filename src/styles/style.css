@@ -27,7 +27,7 @@
 
 /* Estilos de parallax */
 .parallax {
-  background-attachment: fixed!important;
+  background-attachment: fixed !important;
  }
  /* /Estilos de parallax */
 /* Sección con imagen de fondo */
@@ -40,6 +40,10 @@
   height: 100vh;
   position: relative;
   -webkit-filter: grayscale(45%);
+}
+.section__title {
+  font-size: 2.5rem;
+  font-weight: 400;
 }
 .section__overlay {
   bottom: 0;
