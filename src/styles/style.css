@@ -15,6 +15,7 @@
 }
 .nav__button:hover {
   background-color: #f88b0e;
+  color: #ffffff;
 }
 @media (max-width: 480px) {
   .nav__logo__ah {
