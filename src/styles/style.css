@@ -116,7 +116,7 @@
   -webkit-filter: contrast(150%);
 }
 .section-benefits ul {
-  list-style-type: circle;
+  list-style-type: none;
 }
 .section__ben__overlay {
   bottom: 0;
@@ -125,6 +125,11 @@
   position: absolute;
   right: 0;
   top: 0;
+}.section__title {
+  font-size: 1.6rem;
+}
+.section__txt {
+  font-size: 1.2rem;
 }
 .section__ben__overlay .container,
 .section__ben__overlay .container .row {
