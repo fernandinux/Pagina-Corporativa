@@ -141,8 +141,8 @@
     background-position: 100% center;
     height: 10vh !important;
   }
-  .section__title {
-    font-size: 1.3rem !important;
+  .section__ben__title {
+    font-size: 1.5rem !important;
   }
   .section__txt {
     font-size: 1rem !important;
@@ -154,7 +154,7 @@
     padding-top: 390px;
     background-position: 50% center;
   }
-  .section__title {
+  .section__ben__title {
     font-size: 1.9rem;
     margin-bottom: 1rem !important; 
   }
