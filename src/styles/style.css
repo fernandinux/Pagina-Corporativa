@@ -93,6 +93,9 @@
   height: auto;
   width: auto;
 }
+.cont__txt {  
+  font-size: 1rem;
+}
 /* Responsive de texto */
 @media (max-width: 425px) {
   .cont__subtitle {
@@ -109,6 +112,7 @@
 .section-details {
   background-color: #783393;
   color: #ffffff;
+  font-size: 1rem;
 }
 .section-details h4,
 .section-details h3 {
@@ -141,7 +145,7 @@
   background-position: 10% center;
   color: #ffffff;
   filter: contrast(150%);
-  height: 45vh !important;
+  height: 55vh !important;
   position: relative;
   -webkit-filter: contrast(150%);
 }
@@ -159,10 +163,10 @@
   right: 0;
   top: 0;
 }.section__ben__title {
-  font-size: 1rem;
+  font-size: 1.2rem;
 }
 .section__txt {
-  font-size: 0.9rem;
+  font-size: 1rem;
 }
 .section__ben__overlay .container,
 .section__ben__overlay .container .row {
@@ -171,12 +175,12 @@
 /* Responsive - Section benefits */
 @media (max-width: 1024px) {
   .section-benefits {
-    height: 40vh !important;
+    height: 50vh !important;
   }
 }
 @media (max-width: 768px) {
   .section-benefits {
-    height: 50vh !important;
+    height: 65vh !important;
     padding-top: 390px;
     background-position: 50% center;
   }
@@ -188,27 +192,34 @@
 @media (max-width: 425px) {
   .section-benefits {
     background-position: 100% center;
-    height: 90vh !important;
+    height: 115vh !important;
   }
   .section__ben__title {
     font-size: 1.1rem !important;
   }
   .section__txt {
-    font-size: 0.9rem !important;
+    font-size: 1rem !important;
   }
 }
 @media (max-width: 375px) {
   .section-benefits {
-    height: 85vh !important;
+    height: 125vh !important;
   }
 }
 @media (max-width: 320px) {
   .section-benefits {
-    height: 105vh !important;
+    height: 140vh !important;
   }
 }
 /* /Responsive - Section benefits */
 /* /Section benefits */
+
+
+/* Section registration form */
+/* .registration-form {
+  
+} */
+/* /Section registration form */
 
 
 /* Footer */
