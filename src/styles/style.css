@@ -192,7 +192,7 @@
 @media (max-width: 425px) {
   .section-benefits {
     background-position: 100% center;
-    height: 65vh !important;
+    height: 115vh !important;
   }
   .section__ben__title {
     font-size: 1.1rem !important;
@@ -203,12 +203,12 @@
 }
 @media (max-width: 375px) {
   .section-benefits {
-    height: 70vh !important;
+    height: 125vh !important;
   }
 }
 @media (max-width: 320px) {
   .section-benefits {
-    height: 90vh !important;
+    height: 140vh !important;
   }
 }
 /* /Responsive - Section benefits */
