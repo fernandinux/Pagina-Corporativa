@@ -145,7 +145,7 @@
   background-position: 10% center;
   color: #ffffff;
   filter: contrast(150%);
-  height: 50vh !important;
+  height: 20vh !important;
   position: relative;
   -webkit-filter: contrast(150%);
 }
@@ -175,17 +175,17 @@
 /* Responsive - Section benefits */
 @media (max-width: 1440px) {
   .section-benefits {
-    height: 38vh !important;
+    height: 43vh !important;
   }
 }
 @media (max-width: 1024px) {
   .section-benefits {
-    height: 50vh !important;
+    height: 40vh !important;
   }
 }
 @media (max-width: 768px) {
   .section-benefits {
-    height: 70vh !important;
+    height: 65vh !important;
     padding-top: 390px;
     background-position: 50% center;
   }
@@ -208,7 +208,7 @@
 }
 @media (max-width: 375px) {
   .section-benefits {
-    height: 125vh !important;
+    height: 115vh !important;
   }
 }
 @media (max-width: 320px) {
