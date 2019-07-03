@@ -156,7 +156,7 @@
   background-position: left 30% top 70px;
   color: #ffffff;
   filter: contrast(150%);
-  height: 20vh;
+  height: auto;
   background-repeat: no-repeat;
   position: relative;
   -webkit-filter: contrast(150%);
@@ -202,7 +202,7 @@
 @media (max-width: 768px) {
   .section-benefits {
     background-position: left 30% top 70px;
-    height: 45vh !important;
+    height: 60vh !important;
     padding-top: 390px;
   }
 }
