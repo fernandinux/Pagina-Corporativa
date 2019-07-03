@@ -145,7 +145,7 @@
   background-position: 10% center;
   color: #ffffff;
   filter: contrast(150%);
-  height: 65vh !important;
+  height: 40vh !important;
   position: relative;
   -webkit-filter: contrast(150%);
 }
@@ -180,7 +180,7 @@
 }
 @media (max-width: 768px) {
   .section-benefits {
-    height: 65vh !important;
+    height: 70vh !important;
     padding-top: 390px;
     background-position: 50% center;
   }
@@ -208,7 +208,7 @@
 }
 @media (max-width: 320px) {
   .section-benefits {
-    height: 100vh !important;
+    height: 130vh !important;
   }
 }
 /* /Responsive - Section benefits */
