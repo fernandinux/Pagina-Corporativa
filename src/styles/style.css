@@ -208,7 +208,7 @@
 }
 @media (max-width: 320px) {
   .section-benefits {
-    height: 140vh !important;
+    height: 100vh !important;
   }
 }
 /* /Responsive - Section benefits */
@@ -217,7 +217,6 @@
 
 /* Section registration form */
 /* .registration-form {
-  
 } */
 /* /Section registration form */
 
