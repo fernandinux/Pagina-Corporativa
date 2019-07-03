@@ -145,7 +145,7 @@
   background-position: 10% center;
   color: #ffffff;
   filter: contrast(150%);
-  height: 40vh !important;
+  height: 50vh !important;
   position: relative;
   -webkit-filter: contrast(150%);
 }
@@ -173,6 +173,11 @@
   height: 100%;
 }
 /* Responsive - Section benefits */
+@media (max-width: 1440px) {
+  .section-benefits {
+    height: 38vh !important;
+  }
+}
 @media (max-width: 1024px) {
   .section-benefits {
     height: 50vh !important;
