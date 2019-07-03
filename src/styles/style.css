@@ -5,12 +5,14 @@
 /* Cabecera / navbar */
 .nav {
   background-color: #783393;
+  box-shadow: 0px 4px 11px -2px rgba(0,0,0,0.77);
 }
 .nav h1 {
   font-size: 2rem;
 }
 .nav__button {
   background-color: #f27c21;
+  border-color: #fb7629;
   color: #ffffff;
 }
 .nav__button:hover {
@@ -34,14 +36,15 @@
  }
  /* /Style parallax */
 .section-background {
-  background-image: url(../images/estudiantes1.jpg);
+  background-image: url(../images/business.jpg);
   background-size: cover;
   background-position: 25% center;
   color: #ffffff;
-  filter: grayscale(45%);
+  filter: contrast(150%);
   height: 100vh;
   position: relative;
-  -webkit-filter: grayscale(45%);
+  -webkit-filter: contrast(150%);
+  width: auto;
 }
 .section__title {
   font-size: 2.1rem;
@@ -49,7 +52,7 @@
 }
 .section__overlay {
   bottom: 0;
-  background-color: #2a2a2ad8;
+  background-color: #7833938f;
   left: 0;
   position: absolute;
   right: 0;
@@ -114,6 +117,11 @@
   color: #ffffff;
   font-size: 1rem;
 }
+.stage__module {
+  box-shadow: 0px 5px 24px -9px rgba(117,115,117,1);
+  -webkit-box-shadow: 0px 5px 24px -9px rgba(117,115,117,1);
+  -moz-box-shadow: 0px 5px 24px -9px rgba(117,115,117,1);
+}
 .section-details h4,
 .section-details h3 {
   color: #fdc969;
@@ -140,14 +148,16 @@
 
 /* Section benefits */
 .section-benefits {
-  background-image: url(../images/postit.png);
+  background-image: url(../images/business2.jpg);
   background-size: cover;
-  background-position: 10% center;
+  background-position: left 30% top 70px;
   color: #ffffff;
   filter: contrast(150%);
-  height: 20vh !important;
+  height: 20vh;
+  background-repeat: no-repeat;
   position: relative;
   -webkit-filter: contrast(150%);
+  width: auto;
 }
 .section-benefits ul {
   list-style-type: none;
@@ -162,7 +172,8 @@
   position: absolute;
   right: 0;
   top: 0;
-}.section__ben__title {
+}
+.section__ben__title {
   font-size: 1.2rem;
 }
 .section__txt {
@@ -175,19 +186,21 @@
 /* Responsive - Section benefits */
 @media (max-width: 1440px) {
   .section-benefits {
-    height: 43vh !important;
+    background-position: left 30% top 80px;
+    height: 50vh !important;
   }
 }
 @media (max-width: 1024px) {
   .section-benefits {
-    height: 40vh !important;
+    background-position: left 30% top 80px;
+    height: 45vh !important;
   }
 }
 @media (max-width: 768px) {
   .section-benefits {
-    height: 65vh !important;
+    background-position: left 30% top 70px;
+    height: 45vh !important;
     padding-top: 390px;
-    background-position: 50% center;
   }
 }
   .section__ben__title {
@@ -196,7 +209,7 @@
   }
 @media (max-width: 425px) {
   .section-benefits {
-    background-position: 100% center;
+    background-position: left 30% top 80px;
     height: 115vh !important;
   }
   .section__ben__title {
@@ -208,15 +221,26 @@
 }
 @media (max-width: 375px) {
   .section-benefits {
+    background-position: left 30% top 80px;
     height: 115vh !important;
   }
 }
 @media (max-width: 320px) {
   .section-benefits {
-    height: 135vh !important;
+    background-position: left 30% top 70px;
+    height: 120vh !important;
   }
 }
 /* /Responsive - Section benefits */
+/* /Section benefits */
+
+
+/* Section benefits */
+.shadow {
+  box-shadow: 0px 5px 24px -9px rgba(117,115,117,1);
+  -webkit-box-shadow: 0px 5px 24px -9px rgba(117,115,117,1);
+  -moz-box-shadow: 0px 5px 24px -9px rgba(117,115,117,1);
+}
 /* /Section benefits */
 
 
