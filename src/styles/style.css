@@ -179,19 +179,6 @@
 .section__ben__overlay .container .row {
   height: 100%;
 }
-/* Responsive - Section benefits */
-/* @media (max-width: 1440px) {
-  .section-benefits {
-    background-position: left 30% top 80px;
-    height: 50vh !important;
-  }
-}
-@media (max-width: 1024px) {
-  .section-benefits {
-    background-position: left 30% top 80px;
-    height: 45vh !important;
-  }
-} */
 @media (max-width: 768px) {
   .section-benefits {
     background-position: left 30% top 70px;
@@ -206,7 +193,7 @@
 }
 @media (max-width: 425px) {
   .section-benefits {
-    background-position: left 30% top 80px;
+    background-position: left 50% top 50px;
     height: 115vh !important;
   }
   .section__ben__title {
@@ -216,18 +203,6 @@
     font-size: 1rem !important;
   }
 }
-/* @media (max-width: 375px) {
-  .section-benefits {
-    background-position: left 30% top 80px;
-    height: 115vh !important;
-  }
-}
-@media (max-width: 320px) {
-  .section-benefits {
-    background-position: left 30% top 70px;
-    height: 120vh !important;
-  } */
-/* } */
 /* /Responsive - Section benefits */
 /* /Section benefits */
 
