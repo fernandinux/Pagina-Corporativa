@@ -147,7 +147,7 @@
   background-image: url(../images/business2.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: left 30% top 70%;
+  background-position: left 30% top 70px;
   color: #ffffff;
   filter: contrast(150%);
   height: 50vh;
