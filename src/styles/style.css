@@ -195,7 +195,7 @@
 @media (max-width: 768px) {
   .section-benefits {
     background-position: left 30% top 70px;
-    height: 60vh !important;
+    height: 70vh !important;
   }
   .section__ben__title {
     font-size: 1.3rem;
