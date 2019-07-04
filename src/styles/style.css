@@ -125,7 +125,7 @@
   color: #fdc969;
 }
 .details__description {
-  list-style-type: circle;
+  list-style-type: none;
 }
 .details-address a {
   color: #ffffff;
@@ -157,9 +157,6 @@
 }
 .section-benefits ul {
   list-style-type: none;
-}
-.section-benefits ul li .fa-check {
-  color: #c6b8cc;
 }
 .section__ben__overlay {
   bottom: 0;
