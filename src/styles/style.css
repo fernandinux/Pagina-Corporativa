@@ -223,6 +223,7 @@
  }
  .footer__text {
    color: #c6b8cc;
+   font-size: 1.3rem;
  }
  .footer ul {
   list-style-type: none;
