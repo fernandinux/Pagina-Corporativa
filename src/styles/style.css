@@ -4,11 +4,8 @@
   box-shadow: 0px 4px 11px -2px rgba(0,0,0,0.77);
 }
 .nav__logo__ah {
-  height: 4rem;
+  height: 4.7rem;
   width: auto;
-}
-.nav h1 {
-  font-size: 2rem;
 }
 .nav__button {
   background-color: #f27c21;
@@ -21,7 +18,7 @@
 }
 @media (max-width: 480px) {
   .nav__logo__ah {
-    height: 3.1rem;
+    height: 3.7rem;
     width: auto;
   }
 }
@@ -34,26 +31,23 @@
  }
  /* /Style parallax */
 .section-background {
-  background-image: url(../images/business.jpg);
+  background-image: url(../images/estudiantes.png);
   background-size: cover;
-  background-position: 25% center;
+  background-position: 75% top;
   color: #ffffff;
-  filter: contrast(150%);
+  filter: contrast(100%);
   height: 100vh;
   position: relative;
-  -webkit-filter: contrast(150%);
+  -webkit-filter: contrast(100%);
   width: auto;
 }
-.section__title {
-  font-size: 2.5rem;
+.section-background .section__title {
+  font-size: 2.8rem;
   font-weight: 400;
-}
-.section-background .section__txt {
-  font-size: 1.3rem;
 }
 .section__overlay {
   bottom: 0;
-  background-color: #7833938f;
+  background-color: rgba(0, 0, 0, 0.78);
   left: 0;
   position: absolute;
   right: 0;
@@ -66,24 +60,21 @@
 /* Section image - Responsive */
 @media (max-width: 768px) {
   .section-background {
-    height: 60vh;
+    height: 80vh;
     background-position: 60% center;
   }
-  .section__title {
-    font-size: 1.9rem;
+  .section-background .section__title {
+    font-size: 2rem;
     margin-bottom: 1rem !important; 
   }
 }
 @media (max-width: 425px) {
   .section-background {
     background-position: 50% center;
-    height: 70vh !important;
+    height: 80vh !important;
   }
-  .section__title {
-    font-size: 1.3rem !important;
-  }
-  .section__txt {
-    font-size: 1rem !important;
+  .section-background .section__title {
+    font-size: 1.4rem !important;
   }
 }
 /* /Section image - Responsive */
@@ -95,35 +86,19 @@
   height: auto;
   width: auto;
 }
-.cont__txt {  
-  font-size: 1rem;
-}
-/* Responsive de texto */
-@media (max-width: 425px) {
-  .cont__subtitle {
-    font-size: 1.5rem;
-  } 
-  .cont__txt {  
-    font-size: 1rem;
-  }
-}
 /* /Main content*/
 
 /* Section details */
 .section-details {
   background-color: #783393;
   color: #ffffff;
-  font-size: 1rem;
 }
-.stage__module {
-  box-shadow: 0px 5px 24px -9px rgba(117,115,117,1);
-  -webkit-box-shadow: 0px 5px 24px -9px rgba(117,115,117,1);
-  -moz-box-shadow: 0px 5px 24px -9px rgba(117,115,117,1);
-}
-.section-details h4,
 .section-details h3 {
   color: #fdc969;
 }
+.section-details h4 {
+  color: #fdc969;
+} 
 .details__description {
   list-style-type: none;
 }
@@ -140,7 +115,12 @@
 .stages {
   color: #000000;
  }
- /* Stages of the application */
+ .stage__module {
+   box-shadow: 0px 5px 24px -9px rgba(117,115,117,1);
+   -webkit-box-shadow: 0px 5px 24px -9px rgba(117,115,117,1);
+   -moz-box-shadow: 0px 5px 24px -9px rgba(117,115,117,1);
+ }
+ /* /Stages of the application */
   
 /* Section what to expect from the bootcamp? */
 .section-benefits {
@@ -149,10 +129,11 @@
   background-size: cover;
   background-position: left 30% top 70px;
   color: #ffffff;
-  filter: contrast(150%);
-  height: 50vh;
+  filter: contrast(100%);
+  height: 60vh;
+  object-fit: cover;
   position: relative;
-  -webkit-filter: contrast(150%);
+  -webkit-filter: contrast(100%);
   width: auto;
 }
 .section-benefits ul {
@@ -160,17 +141,11 @@
 }
 .section__ben__overlay {
   bottom: 0;
-  background-color: #7833938f;
+  background-color: rgba(0, 0, 0, 0.78);
   left: 0;
   position: absolute;
   right: 0;
   top: 0;
-}
-.section__ben__title {
-  font-size: 1.2rem;
-}
-.section__txt {
-  font-size: 1rem;
 }
 .section__ben__overlay .container,
 .section__ben__overlay .container .row {
@@ -180,48 +155,63 @@
 @media (max-width: 768px) {
   .section-benefits {
     background-position: left 30% top 70px;
-    height: 70vh !important;
-  }
-  .section__ben__title {
-    font-size: 1.3rem;
-  } 
-  .section__txt {
-    font-size: 1.2rem !important;
+    height: 85vh !important;
   }
 }
 @media (max-width: 425px) {
   .section-benefits {
-    background-position: left 50% top 50px;
-    height: 115vh !important;
+    background-position: left 55% top 40%;
+    height: 65vh !important;
   }
-  .section__ben__title {
-    font-size: 1.1rem !important;
-  }
-  .section__txt {
-    font-size: 1rem !important;
+}
+@media (max-width: 320px) {
+  .section-benefits {
+    height: 75vh !important;
   }
 }
 /* /Responsive - Section what to expect from the bootcamp? */
 /* Section what to expect from the bootcamp? */
 
 /* Section testimonies */
-.testimonies {
+.cont__testimonies{
   background-color: #783393;
 }
-.testimonies__card {
-  padding: 5rem;
+.testimonies__text h3 {
+  background-color: #783393;
+  color: #ffffff;
 }
-.shadow {
-  box-shadow: 0px 5px 24px -9px rgba(117,115,117,1);
-  -webkit-box-shadow: 0px 5px 24px -9px rgba(117,115,117,1);
-  -moz-box-shadow: 0px 5px 24px -9px rgba(117,115,117,1);
+.testimonies__image {
+  border-radius: 0rem 7rem 0rem 0rem;
+  -webkit-border-radius: 0rem 7rem 0rem 0rem;
+  -moz-border-radius: 0rem 7rem 0rem 0rem;
+  -ms-border-radius: 0rem 7rem 0rem 0rem;
+  -o-border-radius: 0rem 7rem 0rem 0rem;
+}
+/* Responsive de texto */
+@media (max-width: 425px) {
+  .cont__testimonies {
+    padding-bottom: 25%;
+    width: auto;
+  }
+  .cont__testimonies img {
+    width: auto;
+  }
 }
 /* /Section testimonies */
 
-/* Section registration form */
-/* .registration-form {
-} */
-/* /Section registration form */
+/* Questions and answers */
+.questions .accordion button {
+  color: #000000;
+  text-decoration: none;
+}
+.questions h4 {
+  color: #783393;
+}
+.quetions__border {
+  border-bottom: 0.2rem solid #783393;
+  border-top: 0.1rem solid #783393;
+}
+/* /Questions and answers */
 
 /* Footer */
 .footer {
@@ -230,7 +220,6 @@
  }
  .footer__text {
    color: #c6b8cc;
-   font-size: 1.3rem;
  }
  .footer ul {
   list-style-type: none;
@@ -255,3 +244,47 @@
  }
 /* /Footer */
  
+/* Tamaños de fuentes */
+.subtitle {
+  font-size: 2.2rem !important;
+}
+.medium-txt {
+  font-size: 1.5rem !important;
+}
+.small-txt {  
+  font-size: 1.4rem !important;
+}
+.x-small-txt {
+  font-size: 1.2rem;
+}
+/* Responsive de texto */
+@media (max-width: 768px) {
+  .subtitle {
+    font-size: 1.6rem !important;
+  } 
+  .medium-txt {
+    font-size: 4.4rem !important;
+  }
+  .small-txt {  
+    font-size: 1.2rem !important;
+  }
+  .x-small-txt {
+    font-size: 1rem;
+  }
+}
+@media (max-width: 425px) {
+  .subtitle {
+    font-size: 1.3rem !important;
+  }
+  .medium-txt {
+    font-size: 1rem !important;
+  }
+  .small-txt {  
+    font-size: 0.9rem !important;
+  }
+  .x-small-txt {
+    font-size: 0.8rem;
+  }
+}
+/* /Responsive de texto */
+/* /Tamaños de fuentes */

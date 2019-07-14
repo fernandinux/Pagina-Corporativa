@@ -7,13 +7,6 @@ sr.reveal('.nav', {
   origin: 'top'
 });
 
-// Animación a título
-sr.reveal('h1', {
-  distance: '200px',
-  duration: 2000,
-  origin: 'right'
-});
-
 // Animación al texto central
 sr.reveal('.txt', {
   distance: '200px',
