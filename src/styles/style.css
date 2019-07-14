@@ -208,7 +208,7 @@
  
 /* Tamaños de fuentes */
 .title {
-  font-size: 5rem;
+  font-size: 4.5rem;
   font-weight: 400;
 }
 .subtitle {
@@ -224,12 +224,29 @@
   font-size: 1.8rem;
 }
 /* Responsive de texto */
-@media (max-width: 768px) {
+@media (max-width: 1440px) {
   .title {
-    font-size: 3rem;
+    font-size: 3.4rem;
   }
   .subtitle {
-    font-size: 2rem !important;
+    font-size: 2.4rem !important;
+  } 
+  .medium-txt {
+    font-size: 1.7rem !important;
+  }
+  .small-txt {  
+    font-size: 1.5rem !important;
+  }
+  .x-small-txt {
+    font-size: 1.3rem;
+  }
+}
+@media (max-width: 768px) {
+  .title {
+    font-size: 2.4rem;
+  }
+  .subtitle {
+    font-size: 1.7rem !important;
   } 
   .medium-txt {
     font-size: 1.4rem !important;
@@ -243,10 +260,10 @@
 }
 @media (max-width: 425px) {
   .title {
-    font-size: 1.6rem;
+    font-size: 1.5rem;
   }
   .subtitle {
-    font-size: 1.3rem !important;
+    font-size: 1.2rem !important;
   }
   .medium-txt {
     font-size: 1.1rem !important;
