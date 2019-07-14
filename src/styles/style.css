@@ -9,8 +9,9 @@
 }
 .nav__button {
   background-color: #f27c21;
-  border-color: #fb7629;
   color: #ffffff;
+  font-weight: 500;
+  letter-spacing: 0.05rem;
 }
 .nav__button:hover {
   background-color: #f88b0e;
@@ -42,7 +43,7 @@
   width: auto;
 }
 .section-background .section__title {
-  font-size: 2.8rem;
+  font-size: 2.9rem;
   font-weight: 400;
 }
 .section__overlay {
@@ -83,6 +84,7 @@
 /* Main content */
 .cont-main {
   color: #000000;
+  background-color: rgba(0,0,0,.03);
   height: auto;
   width: auto;
 }
@@ -100,7 +102,7 @@
   color: #fdc969;
 } 
 .details__description {
-  list-style-type: none;
+  list-style-type: circle;
 }
 .details-address a {
   color: #ffffff;
@@ -124,61 +126,25 @@
   
 /* Section what to expect from the bootcamp? */
 .section-benefits {
-  background-image: url(../images/business2.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: left 30% top 70px;
+  background: #783393;
   color: #ffffff;
-  filter: contrast(100%);
-  height: 60vh;
-  object-fit: cover;
-  position: relative;
-  -webkit-filter: contrast(100%);
-  width: auto;
 }
 .section-benefits ul {
   list-style-type: none;
 }
-.section__ben__overlay {
-  bottom: 0;
-  background-color: rgba(0, 0, 0, 0.78);
-  left: 0;
-  position: absolute;
-  right: 0;
-  top: 0;
-}
-.section__ben__overlay .container,
-.section__ben__overlay .container .row {
-  height: 100%;
-}
-/* Responsive - Section what to expect from the bootcamp? */
-@media (max-width: 768px) {
-  .section-benefits {
-    background-position: left 30% top 70px;
-    height: 85vh !important;
-  }
-}
-@media (max-width: 425px) {
-  .section-benefits {
-    background-position: left 55% top 40%;
-    height: 65vh !important;
-  }
-}
-@media (max-width: 320px) {
-  .section-benefits {
-    height: 75vh !important;
-  }
-}
-/* /Responsive - Section what to expect from the bootcamp? */
 /* Section what to expect from the bootcamp? */
 
 /* Section testimonies */
-.cont__testimonies{
-  background-color: #783393;
+.testimonies h3 {
+  background-color: rgba(0,0,0,.03);
 }
-.testimonies__text h3 {
-  background-color: #783393;
-  color: #ffffff;
+.cont__testimonies{
+  background-color: rgba(0,0,0,.03);
+}
+.carousel-caption cite,
+.carousel-caption h5,
+.carousel-caption h6 {
+  color: #000000;
 }
 .testimonies__image {
   border-radius: 0rem 7rem 0rem 0rem;
