@@ -91,12 +91,10 @@
   background-color: #783393;
   color: #ffffff;
 }
-.section-details h3 {
+.section-details h4,
+.section-details .icon {
   color: #fdc969;
 }
-.section-details h4 {
-  color: #fdc969;
-} 
 .details__description {
   list-style-type: circle;
 }
@@ -111,6 +109,7 @@
 
 /* Stages of the application */
 .stages {
+  background-color: rgba(0,0,0,.03);
   color: #000000;
  }
  .stage__module {
@@ -149,7 +148,7 @@
   -ms-border-radius: 0rem 7rem 0rem 0rem;
   -o-border-radius: 0rem 7rem 0rem 0rem;
 }
-/* Responsive de texto */
+/* Responsive*/
 @media (max-width: 425px) {
   .cont__testimonies {
     padding-bottom: 25%;
@@ -162,6 +161,9 @@
 /* /Section testimonies */
 
 /* Questions and answers */
+.questions {
+  background-color: rgba(0,0,0,.03);
+}
 .questions .accordion button {
   color: #000000;
   text-decoration: none;
