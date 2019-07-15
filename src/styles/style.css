@@ -160,6 +160,35 @@
 }
 /* /Section testimonies */
 
+/* Bootcamp pillars */
+.pillars {
+  background: #783393;
+  color: #ffffff;
+}
+.pillar {
+  list-style-type: none;
+ }
+ .pillar p {
+  background: #00000033;
+  display: inline-block;
+  height: 13rem;
+  line-height: 13rem;
+  transition: .4s;
+  transform: scale(1);
+  width: 13rem;
+  -webkit-transition: .4s;
+  -moz-transition: .4s;
+  -ms-transition: .4s;
+  -o-transition: .4s;
+  -webkit-transform: scale(1);
+  -moz-transform: scale(1);
+  -ms-transform: scale(1);
+  -o-transform: scale(1);
+}
+ .pillar p:hover {
+  background: #2a2a2ad8;
+ }
+
 /* Questions and answers */
 .questions {
   background-color: rgba(0,0,0,.03);
@@ -189,12 +218,22 @@
   list-style-type: none;
  }
  .footer ul li {
-  display: inline-block;
   background: #00000033;
-  line-height: 3rem;
-  width: 3rem;
+  display: inline-block;
   height: 3rem;
- }
+  line-height: 3rem;
+  transition: .4s;
+  transform: scale(1);
+  width: 3rem;
+  -webkit-transition: .4s;
+  -moz-transition: .4s;
+  -ms-transition: .4s;
+  -o-transition: .4s;
+  -webkit-transform: scale(1);
+  -moz-transform: scale(1);
+  -ms-transform: scale(1);
+  -o-transform: scale(1);
+}
  .footer ul li:hover {
   background: #2a2a2ad8;
  }
@@ -234,10 +273,10 @@
     font-size: 2rem !important;
   } 
   .medium-txt {
-    font-size: 1.3rem !important;
+    font-size: 1.4rem !important;
   }
   .small-txt {  
-    font-size: 1.2rem !important;
+    font-size: 1.3rem !important;
   }
   .x-small-txt {
     font-size: 1.1rem;

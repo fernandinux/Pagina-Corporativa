@@ -23,3 +23,10 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     });
   });
 });
+
+// Bootcamp pillars
+sr.reveal('.pillar', {
+  distance: '200px',
+  duration: 2000,
+  origin: 'bottom',
+});
