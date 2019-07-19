@@ -3,22 +3,23 @@
   background-color: #783393;
   box-shadow: 0px 4px 11px -2px rgba(0,0,0,0.77);
 }
-.nav__logo__ah {
+.nav__logo {
   height: 4.7rem;
   width: auto;
 }
 .nav__button {
   background-color: #f27c21;
+  box-shadow: 1px 3px 9px -2px rgba(0,0,0,0.7);
   color: #ffffff;
   font-weight: 500;
   letter-spacing: 0.05rem;
 }
 .nav__button:hover {
-  background-color: #f88b0e;
+  background-color: #ff6a06;
   color: #ffffff;
 }
 @media (max-width: 480px) {
-  .nav__logo__ah {
+  .nav__logo {
     height: 3.7rem;
     width: auto;
   }
@@ -26,11 +27,6 @@
 /* /Cabecera / navbar */
 
 /* Section image */
-/* Style parallax */
-.parallax {
-  background-attachment: fixed !important;
- }
- /* /Style parallax */
 .section-background {
   background-image: url(../images/estudiantes.png);
   background-size: cover;
@@ -54,11 +50,16 @@
 .section__overlay .container .row {
   height: 100%;
 }
+/* Style parallax */
+.parallax {
+  background-attachment: fixed !important;
+ }
+ /* /Style parallax */
 /* Section image - Responsive */
 @media (max-width: 768px) {
   .section-background {
     height: 80vh;
-    background-position: 60% center;
+    background-position: 30% center;
   }
   .section-background .section__title {
     font-size: 2rem;
@@ -67,7 +68,7 @@
 }
 @media (max-width: 425px) {
   .section-background {
-    background-position: 50% center;
+    background-position: 60% center;
     height: 80vh !important;
   }
   .section-background .section__title {
@@ -93,7 +94,7 @@
 }
 .section-details h4,
 .section-details .icon {
-  color: #fdc969;
+  color: #ff8b06;
 }
 .details__description {
   list-style-type: circle;
@@ -103,7 +104,7 @@
   cursor: pointer;
 }
 .details-address:hover a {
-  color: #fdc969;
+  color: #ff8b06;
 }
 /* /Section details */
 
@@ -190,15 +191,19 @@
 .questions {
   background-color: rgba(0,0,0,.03);
 }
-.questions .accordion button {
+.questions__button,
+.questions__button:hover {
   color: #000000;
-  text-decoration: none;
+  text-decoration: none !important;
 }
-.questions h4 {
+.questions__subtitle {
   color: #783393;
 }
+.question__icon:active {
+  color: #fff !important;
+}
 .quetions__border {
-  border-bottom: 0.2rem solid #783393;
+  border-bottom: 0.1rem solid #783393;
   border-top: 0.1rem solid #783393;
 }
 /* /Questions and answers */
@@ -211,10 +216,10 @@
  .footer__text {
    color: #c6b8cc;
  }
- .footer ul {
+ .footer__icons {
   list-style-type: none;
  }
- .footer ul li {
+ .footer__icon {
   background: #00000033;
   display: inline-block;
   height: 3rem;
@@ -231,15 +236,15 @@
   -ms-transform: scale(1);
   -o-transform: scale(1);
 }
- .footer ul li:hover {
+ .footer__icon:hover {
   background: #2a2a2ad8;
  }
- .footer p {
+ .footer__copy {
   font-size: 1em;
   font-weight: 300;
  }
- .footer a,
- .footer a:hover {
+ .footer__link,
+ .footer__link:hover {
   color: #ffffff;
  }
 /* /Footer */
@@ -270,7 +275,7 @@
     font-size: 2rem !important;
   } 
   .medium-txt {
-    font-size: 1.4rem !important;
+    font-size: 1.6rem !important;
   }
   .small-txt {  
     font-size: 1.3rem !important;

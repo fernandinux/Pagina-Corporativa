@@ -19,11 +19,11 @@
 
 <body data-spy="scroll" data-target="#navbar-scrollspy">
 
-  <!-- Cabecera / navbar -->
+  <!-- Cabecera - navbar -->
   <header class="container-fluid" role="navigation">
     <nav id="navbar-scrollspy" class="navbar fixed-top navbar-dark nav py-sm-0">
       <a class="navbar-brand ml-1 ml-md-3 mt-1" href="index.html">
-        <img class="nav__logo__ah mb-0 mb-md-1" src="images/logoweb.png" class="d-inline-block align-top"
+        <img class="nav__logo mb-0 mb-md-1" src="images/logoweb.png" class="d-inline-block align-top"
           alt="Logo de Aprende Hoy" title="Home">
         <h1 class="d-none">AprendeHoy</h1>
       </a>
@@ -35,7 +35,7 @@
       </div>
     </nav>
   </header>
-  <!-- /Cabecera / navbar -->
+  <!-- /Cabecera - navbar -->
 
   <!-- Section image-->
   <section class="parallax section-background">
@@ -47,6 +47,10 @@
               Digital y Empleabilidad</h2>
             <p class="medium-txt pt-3">Acelera tu desarrollo personal y profesional de manera intensiva en
               un entorno de soporte y constante apoyo.</p>
+            <div class="badges">
+              <a href="#details" class="badge badge-info small-txt px-3 py-2 mt-3"><i
+                  class="far fa-calendar-alt medium-txt"></i> Inicio - 14 Septiembre 2019</a>
+            </div>
           </div>
         </div>
       </div>
@@ -59,7 +63,7 @@
     <div class="row justify-content-center">
       <div class="col-10 text-center">
         <h2 class="h3 my-1 pb-1 pb-md-2 subtitle">¿Qué es el bootcamp de AprendeHoy?</h2>
-        <p class="small-txt">Es un programa de formación profesional intensivo basado en retos de 10 semanas que
+        <p class="small-txt pb-md-3">Es un programa de formación profesional intensivo basado en retos de 10 semanas que
           harán
           de ti un profesional preparado, conocerás las metodologías ágiles y aprenderás directamente de profesionales
           expertos
@@ -80,27 +84,27 @@
     <div class="container-fluid py-1 py-md-3 pb-3 pb-md-5">
       <div class="row">
         <div class="col-12 my-1">
-          <h3 class="mt-3 pt-3 mb-4 mb-md-4 subtitle text-center">¿Qué esperar del bootcamp?</h3>
+          <h3 class="mt-3 pt-3 pt-md-4 mb-4 subtitle text-center">¿Qué esperar del bootcamp?</h3>
         </div>
       </div>
       <div class="row justify-content-center">
         <div class="mr-2 mx-md-4 col-md-5 pl-0">
           <ul class="medium-txt mb-0">
-            <li class="pb-2"><i class="fas fa-check"></i> Aprender herramientas de ejecución, evaluación y
+            <li class="pb-3"><i class="fas fa-check"></i> Aprender herramientas de ejecución, evaluación y
               aprendizaje.</li>
-            <li class="pb-2"><i class="fas fa-check"></i> Mejorar tus conocimientos técnicos y tus habilidades
+            <li class="pb-3"><i class="fas fa-check"></i> Mejorar tus conocimientos técnicos y tus habilidades
               profesionales.
             </li>
-            <li class="pb-2"><i class="fas fa-check"></i> Trabajar en equipos multidisciplinarios usando
+            <li class="pb-3"><i class="fas fa-check"></i> Trabajar en equipos multidisciplinarios usando
               metodologías ágiles.
             </li>
           </ul>
         </div>
         <div class="mr-2 mx-md-4 col-md-5 pl-0">
           <ul class="medium-txt">
-            <li class="pb-2"><i class="fas fa-check"></i> Recibir mentoría y acompañamiento durante todo el
+            <li class="pb-3"><i class="fas fa-check"></i> Recibir mentoría y acompañamiento durante todo el
               programa.</li>
-            <li class="pb-2"><i class="fas fa-check"></i> Desarrollar una visión del mundo digital según las
+            <li class="pb-3"><i class="fas fa-check"></i> Desarrollar una visión del mundo digital según las
               necesidades
               empresariales.</li>
             <li class="pb-2"><i class="fas fa-check"></i> Cubrir las nuevas exigencias y demandas del actual mercado
@@ -188,39 +192,30 @@
   <!-- /Testimonies -->
 
   <!-- Section details -->
-  <div class="container-fluid section-details px-3 px-md-5 py-5 pt-4 pb-0 pb-md-3 justify-content-center">
-    <div class="row align-items-center">
-      <div class="col-12 col-md-6 col-lg-3 pb-4 pb-md-5 pl-0">
-        <div class="text-center pb-2 icon">
-          <i class="far fa-calendar-alt subtitle"></i>
-        </div>
-        <h4 class="text-center medium-txt">Inicio</h4>
-        <div class="text-center text">
-          <p class="small-txt">14 Septiembre, 2019</p>
-        </div>
-      </div>
-      <div class="col-12 col-md-6 col-lg-3 pb-4 pb-md-5 pl-0">
-        <div class="text-center pb-2 icon">
-          <i class="far fa-clock subtitle"></i>
-        </div>
-        <h4 class="text-center medium-txt">Horario</h4>
-        <div class="text-center text">
-          <p class="small-txt">09:00 am – 12:00 pm</p>
-        </div>
-      </div>
-      <div class="col-12 col-md-6 col-lg-3 pb-4 pb-md-0 pb-md-2">
+  <div id="details" class="container-fluid section-details px-3 px-md-5 py-5 pt-4 pb-0 pb-lg-5 justify-content-center">
+    <div class="row align-items-center justify-content-center">
+      <div class="col-12 col-md-4 col-lg-3 pb-4 pb-md-0 pb-md-2">
         <div class="text-center pb-2 icon">
           <i class="fas fa-users subtitle"></i>
         </div>
         <h4 class="text-center medium-txt">Programa</h4>
         <ul class="details__description text small-txt">
           <li>Curso intensivo de 10 semanas.</li>
-          <li>Días sábados.</li>
           <li>5 Horas presenciales por semana.</li>
           <li>20 Horas semanales por cuenta propia.</li>
         </ul>
       </div>
-      <div class="col-12 col-md-6 col-lg-3 pr-1 pr-md-4 pb-md-0 pb-md-3">
+      <div class="col-12 col-md-4 col-lg-3 pb-4 pb-md-5 pl-0">
+        <div class="text-center pb-2 icon">
+          <i class="far fa-clock subtitle"></i>
+        </div>
+        <h4 class="text-center medium-txt">Horario</h4>
+        <div class="text-center text">
+          <p class="small-txt mb-0">Sábados</p>
+          <p class="small-txt">09:00 am – 12:00 pm</p>
+        </div>
+      </div>
+      <div class="col-12 col-md-4 col-lg-3 pr-1 pr-md-4 pb-md-0 pb-md-3">
         <div class="text-center pb-2 icon">
           <i class="fas fa-map-marked-alt subtitle"></i>
         </div>
@@ -247,52 +242,52 @@
   <section class="stages py-4 py-md-5 px-2 px-md-5">
     <div class="container-fluid">
       <div class="row">
-        <div class="col-12 px-4 pb-3 pb-md-4 p-1">
+        <div class="col-12 px-4 pb-3 pb-md-4">
           <h3 class="text-center mb-0 subtitle">Etapas y fechas del bootcamp</h3>
         </div>
-      </div>
-      <div class="row mx-1 mx-md-2 pb-3 pb-md-4">
-        <div class="col-12 col-md-6 col-lg-3">
-          <div class="card mb-3">
-            <div class="card-body stage__module">
-              <h4 class="medium-txt">1- Registro</h4>
-              <h5 class="x-small-txt mb-2 text-muted h6">5 ago. al 12 ago.</h5>
-              <p class="small-txt">Llena este <a href="#registration-form">formulario</a>, luego te enviaremos al correo
-                una
-                evaluacion
-                on-line.
-              </p>
+        <div class="row mx-1 mx-md-2 pb-3 pb-md-4 justify-content-center">
+          <div class="col-12 col-md-5 col-lg-3 mx-md-1 mx-lg-0">
+            <div class="card mb-3">
+              <div class="card-body stage__module">
+                <h4 class="medium-txt">1- Registro</h4>
+                <h5 class="x-small-txt mb-2 text-muted h6">5 ago. al 12 ago.</h5>
+                <p class="small-txt">Llena este <a href="#registration-form">formulario</a>, luego recibirás un correo
+                  con la
+                  evaluacion
+                  on-line.
+                </p>
+              </div>
             </div>
           </div>
-        </div>
-        <div class="col-12 col-md-6 col-lg-3">
-          <div class="card mb-3">
-            <div class="card-body stage__module">
-              <h4 class="medium-txt">2- Evaluación</h4>
-              <h5 class="x-small-txt mb-2 text-muted h6">13 ago. al 26 ago.</h5>
-              <p class="small-txt">Al pasar satisfactoriamente la evaluación, serás
-                contactado(a) para la dinámica grupal de selección.</p>
+          <div class="col-12 col-md-5 col-lg-3 mx-md-1 mx-lg-0">
+            <div class="card mb-3">
+              <div class="card-body stage__module">
+                <h4 class="medium-txt">2- Evaluación</h4>
+                <h5 class="x-small-txt mb-2 text-muted h6">13 ago. al 31 ago.</h5>
+                <p class="small-txt">Al pasar la evaluación satisfactoriamente, serás
+                  contactado(a) para la dinámica grupal de selección.</p>
+              </div>
             </div>
           </div>
-        </div>
-        <div class="col-12 col-md-6 col-lg-3">
-          <div class="card mb-3">
-            <div class="card-body stage__module">
-              <h4 class="medium-txt">3- Selección</h4>
-              <h5 class="x-small-txt mb-2 text-muted h6">31 ago.</h5>
-              <p class="small-txt">Se elegirá a los
-                participantes que mejor
-                respondan a la dinámica grupal realizada en la PUCP.</p>
+          <div class="col-12 col-md-5 col-lg-3 mx-md-1 mx-lg-0">
+            <div class="card mb-3">
+              <div class="card-body stage__module">
+                <h4 class="medium-txt">3- Selección</h4>
+                <h5 class="x-small-txt mb-2 text-muted h6">31 ago.</h5>
+                <p class="small-txt">Se elegirá a los
+                  participantes que mejor
+                  respondan a la dinámica grupal realizada en la PUCP.</p>
+              </div>
             </div>
           </div>
-        </div>
-        <div class="col-12 col-md-6 col-lg-3">
-          <div class="card">
-            <div class="card-body stage__module">
-              <h4 class="medium-txt">4- Bootcamp</h4>
-              <h5 class="x-small-txt mb-2 text-muted h6">14 sep. al 23 nov.</h5>
-              <p class="small-txt">Iniciaremos el Bootcamp con una reunión presencial en el lugar que se comunicará
-                solo a los seleccionados.</p>
+          <div class="col-12 col-md-5 col-lg-3 mx-md-1 mx-lg-0">
+            <div class="card">
+              <div class="card-body stage__module">
+                <h4 class="medium-txt">4- Bootcamp</h4>
+                <h5 class="x-small-txt mb-2 text-muted h6">14 sep. al 23 nov.</h5>
+                <p class="small-txt">Iniciaremos el Bootcamp con una reunión presencial en el lugar que se comunicará
+                  solo a los seleccionados.</p>
+              </div>
             </div>
           </div>
         </div>
@@ -341,14 +336,14 @@
   <!-- Questions and answers -->
   <div class="container-fluid questions align-items-center py-4 pt-2 pt-lg-5 px-4 px-md-5">
     <h3 class="text-center subtitle">Respondemos a tus preguntas</h3>
-    <div class="accordion px-md-5" id="accordionExample">
-      <h4 class="my-3 medium-txt pt-3">Antes del bootcamp:</h4>
+    <div class="px-md-5" id="accordionExample">
+      <h4 class="questions__subtitle my-3 medium-txt pt-3">Antes del bootcamp:</h4>
       <div class="card border-left-0 border-right-0">
         <div class="card-header quetions__border" id="headingOne">
           <h2 class="mb-0">
-            <button class="btn btn-link medium-txt" type="button" data-toggle="collapse" data-target="#collapseOne"
+            <button class="questions__button btn btn-link medium-txt" type="button" data-toggle="collapse" data-target="#collapseOne"
               aria-expanded="true" aria-controls="collapseOne">
-              ¿Puedo postular sin experiencia?
+              <i class="fas fa-chevron-down question__icon"></i> ¿Puedo postular sin experiencia?
             </button>
           </h2>
         </div>
@@ -362,9 +357,9 @@
       <div class="card border-left-0 border-right-0">
         <div class="card-header quetions__border" id="headingTwo">
           <h2 class="mb-0">
-            <button class="btn btn-link collapsed medium-txt" type="button" data-toggle="collapse"
+            <button class="questions__button btn btn-link collapsed medium-txt" type="button" data-toggle="collapse"
               data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-              ¿Desde cuándo existe el Bootcamp?
+              <i class="fas fa-chevron-down"></i> ¿Desde cuándo existe el Bootcamp?
             </button>
           </h2>
         </div>
@@ -378,9 +373,9 @@
       <div class="card border-left-0 border-right-0">
         <div class="card-header quetions__border" id="headingFour">
           <h2 class="mb-0">
-            <button class="btn btn-link collapsed medium-txt" type="button" data-toggle="collapse"
+            <button class="questions__button btn btn-link collapsed medium-txt" type="button" data-toggle="collapse"
               data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-              ¿Cuál es el costo del curso?
+              <i class="fas fa-chevron-down"></i> ¿Cuál es el costo del curso?
             </button>
           </h2>
         </div>
@@ -400,13 +395,13 @@
           </div>
         </div>
       </div>
-      <h4 class="my-3 medium-txt pt-3">Durante del bootcamp:</h4>
+      <h4 class="questions__subtitle my-3 medium-txt pt-3">Durante del bootcamp:</h4>
       <div class="card border-left-0 border-right-0">
         <div class="card-header quetions__border" id="headingFive">
           <h2 class="mb-0">
-            <button class="btn btn-link collapsed medium-txt" type="button" data-toggle="collapse"
+            <button class="questions__button btn btn-link collapsed medium-txt" type="button" data-toggle="collapse"
               data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
-              ¿Que me van a pedir hacer en el Bootcamp?
+              <i class="fas fa-chevron-down"></i> ¿Que me van a pedir hacer en el Bootcamp?
             </button>
           </h2>
         </div>
@@ -423,9 +418,9 @@
       <div class="card border-left-0 border-right-0">
         <div class="card-header quetions__border" id="headingThree">
           <h2 class="mb-0">
-            <button class="btn btn-link collapsed medium-txt" type="button" data-toggle="collapse"
+            <button class="questions__button btn btn-link collapsed medium-txt" type="button" data-toggle="collapse"
               data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-              ¿Cuánto tiempo necesito dedicar semanalmente al bootcamp?
+              <i class="fas fa-chevron-down"></i> ¿Cuánto tiempo necesito dedicar semanalmente al bootcamp?
             </button>
           </h2>
         </div>
@@ -435,13 +430,13 @@
           </div>
         </div>
       </div>
-      <h4 class="my-3 medium-txt pt-3">Después del bootcamp:</h4>
+      <h4 class="questions__subtitle my-3 medium-txt pt-3">Después del bootcamp:</h4>
       <div class="card border-left-0 border-right-0">
         <div class="card-header quetions__border" id="headingSix">
           <h2 class="mb-0">
-            <button class="btn btn-link collapsed medium-txt" type="button" data-toggle="collapse"
+            <button class="questions__button btn btn-link collapsed medium-txt" type="button" data-toggle="collapse"
               data-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
-              ¿Me entregan alguna constancia o reconocimiento de lo hecho en el Bootcamp?
+              <i class="fas fa-chevron-down"></i> ¿Me entregan alguna constancia o reconocimiento de lo hecho en el Bootcamp?
             </button>
           </h2>
         </div>
@@ -480,19 +475,19 @@
       <div class="row justify-content-center">
         <div class="col-lg-12 text-center">
           <h4 class="pb-2 footer__text small-txt">Contáctanos</h4>
-          <ul class="pl-0 mb-1">
-            <li class="rounded mx-1"><a target="_blank" href="https://www.facebook.com/aprendehoyinfo/"><i
+          <ul class="pl-0 mb-1 footer__icons">
+            <li class="rounded mx-1 footer__icon"><a class="footer__link" target="_blank" href="https://www.facebook.com/aprendehoyinfo/"><i
                   class="fab fa-facebook-f"></i></a>
             </li>
-            <li class="rounded mx-1"><a target="_blank" href="https://www.instagram.com/aprendehoyinfo/"><i
+            <li class="rounded mx-1 footer__icon"><a class="footer__link" target="_blank" href="https://www.instagram.com/aprendehoyinfo/"><i
                   class="fab fa-instagram"></i></a>
             </li>
-            <li class="rounded mx-1"><a target="_blank" href="https://www.linkedin.com/company/aprendehoy/"><i
+            <li class="rounded mx-1 footer__icon"><a class="footer__link" target="_blank" href="https://www.linkedin.com/company/aprendehoy/"><i
                   class="fab fa-linkedin-in"></i></a></li>
-            <li class="rounded mx-1"><a target="_blank" href="https://api.whatsapp.com/send?phone=51917328528"><i
+            <li class="rounded mx-1 footer__icon"><a class="footer__link" target="_blank" href="https://api.whatsapp.com/send?phone=51917328528"><i
                   class="fab fa-whatsapp"></i></a></li>
           </ul>
-          <p class="mb-0">&copy; 2019 AprendeHoy </p>
+          <p class="mb-0 footer__copy">&copy; 2019 AprendeHoy </p>
         </div>
       </div>
     </div>
