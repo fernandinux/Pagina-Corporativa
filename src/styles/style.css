@@ -3,9 +3,25 @@
   background-color: #783393;
   box-shadow: 0px 4px 11px -2px rgba(0,0,0,0.77);
 }
+.nav_navbar {
+  height: 4rem;
+  transition: all 1.5s ease;
+  -webkit-transition: all 1.5s ease;
+  -moz-transition: all 1.5s ease;
+  -ms-transition: all 1.5s ease;
+  -o-transition: all 1.5s ease;
+}
 .nav__logo {
   height: 4.7rem;
   width: auto;
+}
+.nav_navbar .nav__logo {
+  height: 2.5rem;
+  transition: all 1s ease;
+  -webkit-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -ms-transition: all 1s ease;
+  -o-transition: all 1s ease;
 }
 .nav__button {
   background-color: #f27c21;
@@ -13,6 +29,11 @@
   color: #ffffff;
   font-weight: 500;
   letter-spacing: 0.05rem;
+  transition: all 0.5s ease;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
 }
 .nav__button:hover {
   background-color: #ff6a06;
@@ -94,7 +115,7 @@
 }
 .section-details h4,
 .section-details .icon {
-  color: #ff8b06;
+  color: #f27c21;
 }
 .details__description {
   list-style-type: circle;
@@ -104,7 +125,7 @@
   cursor: pointer;
 }
 .details-address:hover a {
-  color: #ff8b06;
+  color: #f27c21;
 }
 /* /Section details */
 
@@ -122,8 +143,8 @@
   
 /* Section what to expect from the bootcamp? */
 .section-benefits {
-  background: #783393;
-  color: #ffffff;
+  background: #e1bee7;
+  color: #000;
 }
 .section-benefits ul {
   list-style-type: none;
@@ -251,17 +272,17 @@
  
 /* Tamaños de fuentes */
 .title {
-  font-size: 4.5rem;
+  font-size: 3.5rem;
   font-weight: 400;
 }
 .subtitle {
-  font-size: 3rem !important;
+  font-size: 2.4rem !important;
 }
 .medium-txt {
-  font-size: 2.3rem !important;
+  font-size: 2.1rem !important;
 }
 .small-txt {  
-  font-size: 2.2rem !important;
+  font-size: 2rem !important;
 }
 .x-small-txt {
   font-size: 1.8rem;
@@ -275,7 +296,7 @@
     font-size: 2rem !important;
   } 
   .medium-txt {
-    font-size: 1.6rem !important;
+    font-size: 1.5rem !important;
   }
   .small-txt {  
     font-size: 1.3rem !important;
