@@ -179,17 +179,35 @@
 .carousel-caption h6 {
   color: #000000;
 }
+.testimonies__button {
+  background: #783393;
+  margin-left: 3rem;
+  margin-right: 3rem;
+  top: calc(50% - 2rem);
+  width: 4rem;
+  height: 4rem;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
 /* Responsive*/
 @media (max-width: 768px) {
   .testimonies__img {
     border: .5rem solid #ffffff;
-    border-bottom: 2rem solid #ffffff;
     margin: 2% 10% 4% 10%;
     transform: rotate(-5deg);
     -webkit-transform: rotate(-5deg);
     -moz-transform: rotate(-5deg);
     -ms-transform: rotate(-5deg);
     -o-transform: rotate(-5deg);
+  }
+  .testimonies__button {
+    height: 2rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    width: 2rem;
   }
 }
 /* /Section testimonies */
