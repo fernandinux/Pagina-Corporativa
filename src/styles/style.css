@@ -144,6 +144,7 @@
   
 /* Section what to expect from the bootcamp? */
 .section-benefits {
+  background-color: #00000008;
   color: #000;
 }
 .section-benefits ul {
@@ -152,23 +153,26 @@
 /* Section what to expect from the bootcamp? */
 
 /* Section testimonies */
+.testimonies {
+  background: #2a90b3;
+  background: linear-gradient(0deg, #2a90b3 0%, #00000008 100%);
+}
 .testimonies__item {
-  background: rgb(120,51,147);
-  background: linear-gradient(0deg, rgba(120,51,147,1) 0%, rgba(42,144,179,1) 100%);  
   padding-top: 5%;
 }
 .testimonies__img {
   border: 1rem solid #ffffff;
   border-bottom: 2rem solid #ffffff;
-  margin: 2% 3% 7% 7%;
-  transform: rotate(-9deg);
-  -webkit-transform: rotate(-9deg);
-  -moz-transform: rotate(-9deg);
-  -ms-transform: rotate(-9deg);
-  -o-transform: rotate(-9deg);
+  margin: 2% 3% 5% 10%;
+  transform: rotate(-7deg);
+  -webkit-transform: rotate(-7deg);
+  -moz-transform: rotate(-7deg);
+  -ms-transform: rotate(-7deg);
+  -o-transform: rotate(-7deg);
 }
 .cont__testimonies{
   background: #2a90b3;
+  background: linear-gradient(0deg, #2a90b3 0%, #00000008 100%);
 }
 .carousel-caption cite,
 .carousel-caption h5,
@@ -176,24 +180,24 @@
   color: #000000;
 }
 /* Responsive*/
-@media (max-width: 425px) {
+@media (max-width: 768px) {
   .testimonies__img {
     border: .5rem solid #ffffff;
     border-bottom: 2rem solid #ffffff;
-    margin: 2% 10% 7% 10%;
-    transform: rotate(-9deg);
-    -webkit-transform: rotate(-9deg);
-    -moz-transform: rotate(-9deg);
-    -ms-transform: rotate(-9deg);
-    -o-transform: rotate(-9deg);
+    margin: 2% 10% 4% 10%;
+    transform: rotate(-5deg);
+    -webkit-transform: rotate(-5deg);
+    -moz-transform: rotate(-5deg);
+    -ms-transform: rotate(-5deg);
+    -o-transform: rotate(-5deg);
   }
 }
 /* /Section testimonies */
 
 /* Bootcamp pillars */
 .pillars {
-  background: rgb(120,51,147);
-background: linear-gradient(0deg, rgba(120,51,147,1) 0%, rgba(42,144,179,1) 100%);
+  background: #2a90b3;
+  background: linear-gradient(0deg, #2a90b3 0%, #00000008 100%);
   color: #ffffff;
 }
  .pillar .icon {
