@@ -111,25 +111,6 @@
 }
 /* /Main content*/
 
-/* Section details */
-.section-details {
-  background-color: #ffffff;
-}
-.section-details h4,
-.section-details .icon {
-  color: #f27c21;
-}
-.details__description {
-  list-style-type: circle;
-}
-.details-address a {
-  cursor: pointer;
-}
-.details-address:hover a {
-  color: #f27c21;
-}
-/* /Section details */
-
 /* Stages of the application */
 .stages {
   background-color: #00000008;
@@ -216,7 +197,6 @@
 .pillars {
   background: #2a90b3;
   background: linear-gradient(0deg, #2a90b3 0%, #00000008 100%);
-  color: #ffffff;
 }
  .pillar .icon {
   background: #00000033;
