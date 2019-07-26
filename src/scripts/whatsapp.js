@@ -2,7 +2,7 @@
 (function () {
   var options = {
     whatsapp: "+51 917328528", // WhatsApp number
-    call_to_action: "¡Escríbenos hoy!", // Call to action
+    call_to_action: "¡Escríbenos!", // Call to action
     position: "right", // Position may be 'right' or 'left'
   };
   var proto = document.location.protocol, host = "whatshelp.io", url = proto + "//static." + host;

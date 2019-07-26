@@ -12,7 +12,7 @@
   -o-transition: all 1.5s ease;
 }
 .nav__logo {
-  height: 4rem;
+  height: 3.7rem;
   width: auto;
 }
 .nav_navbar .nav__logo {
@@ -36,7 +36,7 @@
   -o-transition: all 0.5s ease;
 }
 .nav__button:hover {
-  background-color: #ff6a06;
+  background-color: #e66300;
   color: #ffffff;
 }
 @media (max-width: 480px) {
@@ -47,9 +47,9 @@
 }
 /* /Cabecera / navbar */
 
-/* Section image */
+/* Section slider image */
 .section-background {
-  background-image: url(../images/estudiantes.png);
+  background-image: url(../images/slider/bootcamper-aprendehoy.png);
   background-size: cover;
   background-position: 75% top;
   color: #ffffff;
@@ -59,8 +59,30 @@
   -webkit-filter: contrast(100%);
   width: auto;
 }
+/* countdown */
+.section-background__countdown {
+  margin: .05rem;
+}
+.section-background__wrapper {
+  background-color: #000000c7;
+  display: block;
+  text-align: center;
+  width: 6rem;
+}
+.section-background__time {
+  color: #fff;
+  font-size: 1.8em;
+  text-align: center;
+}
+.section-background__label {
+  font-size: 1.1em;
+  display: block;
+  color: #aaa;
+}
+/* /countdown */
 .section-background__btn {
   background: #2a90b3;
+  box-shadow: 1px 3px 9px -2px #000000b3;
 }
 .section__overlay {
   bottom: 0;
@@ -89,6 +111,16 @@
     font-size: 2rem;
     margin-bottom: 1rem !important; 
   }
+  /* Countdown */
+  .section-background__wrapper {
+    width: 4rem;
+  }
+  .section-background__time {
+    font-size: 1.5em;
+  }
+  .section-background__label {
+    font-size: 0.8em;
+  }
 }
 @media (max-width: 425px) {
   .section-background {
@@ -96,11 +128,21 @@
     height: 80vh !important;
   }
   .section-background .section__title {
-    font-size: 1.4rem !important;
+    font-size: 1.3rem !important;
+  }
+  /* Countdown */
+  .section-background__wrapper {
+    width: 3.4rem;
+  }
+  .section-background__time {
+    font-size: 1em;
+  }
+  .section-background__label {
+    font-size: 0.7em;
   }
 }
 /* /Section image - Responsive */
-/* /Section image */
+/* /Section slider image */
 
 /* Main content */
 .cont-main {
@@ -115,18 +157,34 @@
 .stages {
   background-color: #00000008;
   color: #000000;
+  overflow: hidden;
+ }
+ .card {
+  border-color: transparent;
  }
  .stage__module {
    box-shadow: 0px 5px 24px -9px #757375;
+   transition: transform .5s ease-out;
    -webkit-box-shadow: 0px 5px 24px -9px #757375;
    -moz-box-shadow: 0px 5px 24px -9px #757375;
- }
- /* /Stages of the application */
+   -webkit-transition: transform .5s ease-out;
+   -moz-transition: transform .5s ease-out;
+   -ms-transition: transform .5s ease-out;
+   -o-transition: transform .5s ease-out;
+}
+ .stage__module:hover {
+   transform: scale(1.1);
+   -webkit-transform: scale(1.1);
+   -moz-transform: scale(1.1);
+   -ms-transform: scale(1.1);
+   -o-transform: scale(1.1);
+  }
+/* /Stages of the application */
   
 /* Section what to expect from the bootcamp? and rules */
 .section-benefits {
   background-color: #00000008;
-  color: #000;
+  color: #000000;
 }
 .section-benefits ul {
   list-style-type: none;
@@ -156,10 +214,32 @@
   background: linear-gradient(0deg, #2a90b3 0%, #00000008 100%);
 }
 .carousel-caption cite,
-.carousel-caption h5,
 .carousel-caption h6 {
   color: #000000;
 }
+/* Icon In */
+.testimonies__icon_in {
+  background: #0077B5;
+}
+.testimonies__icon {
+  text-decoration: none;
+  transition: .4s;
+  -webkit-transition: .4s;
+  -moz-transition: .4s;
+  -ms-transition: .4s;
+  -o-transition: .4s;
+}
+.testimonies__icon:hover {
+  background: #283e4a;
+  text-decoration: none;
+}
+/* /Icon In */
+/* Logo School */
+.testimonies__logo__school {
+  height: 1.5rem;
+  width: auto;
+}
+/* /Logo School */
 .testimonies__button {
   background: #783393;
   margin-left: 3rem;
@@ -190,6 +270,15 @@
     margin-right: 1rem;
     width: 2rem;
   }
+  .testimonies__logo__school {
+    height: 1.3rem;
+    width: auto;
+  }
+}
+@media (max-width: 425px) {
+  .testimonies__logo__school {
+    height: 1.1rem;
+  }
 }
 /* /Section testimonies */
 
@@ -198,7 +287,7 @@
   background: #2a90b3;
   background: linear-gradient(0deg, #2a90b3 0%, #00000008 100%);
 }
- .pillar .icon {
+.pillar .icon {
   background: #00000033;
   display: inline-block;
   height: 13rem;
@@ -215,10 +304,15 @@
   -ms-transform: scale(1);
   -o-transform: scale(1);
 }
- .pillar .icon:hover {
-  background: #2a2a2ad8;
+.pillar .icon:hover {
+  background: #2a2a2aab;
  }
-
+.allies__img {
+  height: 4rem;
+}
+.allies__asesorandes {
+  height: 3rem;
+}
 /* Questions and answers */
 .questions {
   background-color: #00000008;
@@ -278,6 +372,7 @@
  .footer__link,
  .footer__link:hover {
   color: #ffffff;
+  text-decoration: none;
  }
 /* /Footer */
  
